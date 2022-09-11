@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.Instrumentati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.Contrib.Shared", "src\OpenTelemetry.Contrib.Shared\OpenTelemetry.Contrib.Shared.csproj", "{E5DBF576-D90B-44A8-915B-A5E805CC0D5D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.Instrumentation.SqlClient", "src\OpenTelemetry.Instrumentation.SqlClient\OpenTelemetry.Instrumentation.SqlClient.csproj", "{596E8867-D954-4A17-837E-32C1E5A624F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E5DBF576-D90B-44A8-915B-A5E805CC0D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5DBF576-D90B-44A8-915B-A5E805CC0D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5DBF576-D90B-44A8-915B-A5E805CC0D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596E8867-D954-4A17-837E-32C1E5A624F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596E8867-D954-4A17-837E-32C1E5A624F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596E8867-D954-4A17-837E-32C1E5A624F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596E8867-D954-4A17-837E-32C1E5A624F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
