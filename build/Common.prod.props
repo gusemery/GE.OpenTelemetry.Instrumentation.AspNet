@@ -3,11 +3,11 @@
 
   <PropertyGroup>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/open-telemetry/opentelemetry-dotnet-contrib</RepositoryUrl>
+    <RepositoryUrl>https://github.com/gusemery/GE.OpenTelemetry.Instrumentation.AspNet</RepositoryUrl>
     <PackageProjectUrl>https://OpenTelemetry.io</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageIcon>opentelemetry-icon-color.png</PackageIcon>
-    <Authors>OpenTelemetry authors</Authors>
+    <Authors>Gus Emery - OpenTelemetry </Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)/OpenTelemetryContrib.prod.ruleset</CodeAnalysisRuleSet>
     <NoWarn>$(NoWarn),1573,1712</NoWarn>
